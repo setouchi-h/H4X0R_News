@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98979CAE2CA02A6500A2AB0A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 98979CAD2CA02A5D00A2AB0A /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		98979C352C9FF35300A2AB0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +31,10 @@
 		98979C242C9FF35100A2AB0A /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98979C342C9FF35300A2AB0A /* H4X0R NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H4X0R NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98979C3E2C9FF35300A2AB0A /* H4X0R NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H4X0R NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98979CAD2CA02A5D00A2AB0A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		98979C262C9FF35100A2AB0A /* H4X0R News */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "H4X0R News";
-			sourceTree = "<group>";
-		};
 		98979C372C9FF35300A2AB0A /* H4X0R NewsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "H4X0R NewsTests";
@@ -43,6 +43,11 @@
 		98979C412C9FF35300A2AB0A /* H4X0R NewsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "H4X0R NewsUITests";
+			sourceTree = "<group>";
+		};
+		98979C612C9FF60300A2AB0A /* H4X0R News */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "H4X0R News";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +80,8 @@
 		98979C1B2C9FF35100A2AB0A = {
 			isa = PBXGroup;
 			children = (
-				98979C262C9FF35100A2AB0A /* H4X0R News */,
+				98979CAD2CA02A5D00A2AB0A /* .gitignore */,
+				98979C612C9FF60300A2AB0A /* H4X0R News */,
 				98979C372C9FF35300A2AB0A /* H4X0R NewsTests */,
 				98979C412C9FF35300A2AB0A /* H4X0R NewsUITests */,
 				98979C252C9FF35100A2AB0A /* Products */,
@@ -108,7 +114,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				98979C262C9FF35100A2AB0A /* H4X0R News */,
+				98979C612C9FF60300A2AB0A /* H4X0R News */,
 			);
 			name = "H4X0R News";
 			packageProductDependencies = (
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98979CAE2CA02A6500A2AB0A /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
